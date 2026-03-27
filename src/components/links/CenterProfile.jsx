@@ -14,7 +14,7 @@ function CenterProfile() {
       <div className="max-w-6xl mx-auto px-4 pb-12">
         <div className="flex flex-col items-center justify-center text-center mb-12">
           <div className="mt-14 w-32 h-32 md:w-44 md:h-44 mb-6 p-2 flex items-center justify-center overflow-hidden">
-             <img src="./public/img1.png" alt="شعار المركز" className="w-full h-full object-contain" />
+             <img src="/public/images/img1.png" alt="شعار المركز" className="w-full h-full object-contain" />
           </div>
           <h1 className="text-3xl md:text-5xl font-extrabold mb-4 drop-shadow-lg leading-tight text-white">مركز التطوير والأنظمة المتكاملة</h1>
           <h2 className="text-xl md:text-2xl text-blue-100 font-semibold drop-shadow-md">جامعة برج العرب التكنولوجية</h2>
@@ -53,7 +53,7 @@ function CenterProfile() {
             
             {/* Image */}
             <div className="relative group overflow-hidden rounded-3xl shadow-xl h-full min-h-[300px] flex items-center justify-center bg-white/5 border border-white/10">
-              <img src="./public/img2.jpeg" alt="جامعة برج العرب التكنولوجية" className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 absolute inset-0" />
+              <img src="/public/images/img2.jpeg" alt="جامعة برج العرب التكنولوجية" className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 absolute inset-0" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-80 transition-opacity duration-500 group-hover:opacity-100"></div>
             </div>
           </div>
