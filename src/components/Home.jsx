@@ -11,8 +11,8 @@ function Home() {
     <>
     <div className="w-full h-screen flex justify-between max-[700px]:flex-col font-[system-ui]">
         <div className="w-[60%] gap-14 flex flex-col justify-center items-center bg-[rgba(207,217,224,0.808)] max-[700px]:w-full max-[700px]:h-screen">
-            <img className="w-[150px] mb-[50px]" src="./public/img1.png" alt="logo" />
-            <img className="w-[80%] rounded-t-[120px]" src="./public/img2.jpeg" alt="image" />
+            <img className="w-[150px] mb-[50px]" src="/public/images/img1.png" alt="logo" />
+            <img className="w-[80%] rounded-t-[120px]" src="/public/images/img2.jpeg" alt="image" />
         </div>
         <button 
           className="hidden max-[700px]:flex h-[50px] w-[50px] rounded-[15px] fixed top-[20px] right-[20px] border-2 border-white bg-[rgba(207,217,224,0.808)] text-white text-[18px] font-bold justify-center items-center cursor-pointer z-20 transition-all duration-[400ms] hover:bg-[rgba(255,255,255,0.219)] hover:underline hover:decoration-[#1c3f4d] hover:text-[#1c3f4d]" 
